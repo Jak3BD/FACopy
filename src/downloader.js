@@ -19,7 +19,7 @@ function createURI(name, family, style) {
 			uri = new URL(`${family}/${name}.svg`, root);
 			break;
 
-		case "classic":
+		case !"classic":
 			uri = new URL(`${family}-${style}/${name}.svg`, root);
 			break;
 	}
