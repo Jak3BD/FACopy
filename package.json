@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"scripts": {
+		"build": "npx rollup -c",
+		"dev": "rollup -c --watch"
+	},
+	"devDependencies": {
+		"@rollup/plugin-terser": "^0.4.3",
+		"rollup": "^3.28.0",
+		"rollup-plugin-copy": "^3.4.0",
+		"rollup-plugin-html": "^0.2.1"
+	}
+}

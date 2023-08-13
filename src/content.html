@@ -1,0 +1,52 @@
+<style>
+	facopy {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		height: 35px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#facopyButton {
+		width: 35px;
+		height: 35px;
+		display: block;
+		fill: #ffa866;
+		cursor: pointer;
+	}
+
+	#facopySuccess {
+		font-size: 16px;
+		padding: 15px;
+		border-radius: 25px;
+		background-color: #B6E2A1;
+		pointer-events: none;
+		margin-right: 15px;
+		opacity: 0;
+	}
+
+	.facopySuccess {
+		animation: fadeOut 2s ease-in-out forwards;
+	}
+
+	@keyframes fadeOut {
+
+		0%,
+		50% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 0;
+		}
+	}
+</style>
+
+<span id="facopySuccess">Copied</span>
+
+<svg id="facopyButton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+	<path
+		d="M208 0H332.1c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9V336c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V48c0-26.5 21.5-48 48-48zM48 128h80v64H64V448H256V416h64v48c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V176c0-26.5 21.5-48 48-48z" />
+</svg>
