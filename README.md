@@ -40,4 +40,4 @@ When you have selected an icon, you will see a copy icon in the upper right corn
 
 Select the family and the style, then click Copy.
 
-![image](https://github.com/Jak3BD/FACopy/assets/124867450/13b7fd31-39e1-4318-9dc7-47dc72dc7f9d)
+![image](https://github.com/Jak3BD/FACopy/assets/124867450/9b773822-5768-4fe9-ae78-57b1b34fc14a)
